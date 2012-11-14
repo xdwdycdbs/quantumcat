@@ -1,0 +1,3 @@
+./ndb.sh jobid (r)
+This script is to make test the product easy because I need check the data of the database continusly.
+If add parameter 'r',the script would execute stored procedure restore_retry with the jobid.
