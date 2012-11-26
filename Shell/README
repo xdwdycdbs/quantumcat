@@ -1,3 +1,6 @@
 ./ndb.sh jobid (r)
 This script is to make test the product easy because I need check the data of the database continuously.
 If add parameter 'r',the script would execute stored procedure restore_retry with the jobid.
+
+./ana 
+This script is to analyse the logs and its function is the same as Python/logAnalyser/ana.py

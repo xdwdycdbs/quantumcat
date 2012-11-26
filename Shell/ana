@@ -1,0 +1,8 @@
+awk -F "|" '
+{ 
+   array[$1]++
+}
+END {
+for (item in array)
+   print item "\t" array[item]
+}' tmplog* > result.xls
