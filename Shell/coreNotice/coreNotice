@@ -1,0 +1,8 @@
+#!/bin/bash
+notice=`ls -al /tmp/ctriton/ | awk '{ if (NR > 3) print $7,$8,$9 }'`
+echo `ls -al /tmp/ctriton/` > /tmp/coreWatch
+l=`echo $notice | wc -c`
+if [ $l -gt 1 ]
+then
+   python coreNotice.py "$notice"
+fi
