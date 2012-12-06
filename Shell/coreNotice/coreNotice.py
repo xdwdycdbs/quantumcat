@@ -16,7 +16,7 @@ msg='\r\n'.join(['\r\n'.join(head),
 #send the mail
 s=smtplib.SMTP(smtpaddr)
 s.set_debuglevel(1)
-s.login("yxt197","Youhuanmimala123")
+s.login("yxt197","******")
 s.sendmail(fromaddr,toaddr,msg)
 
 
