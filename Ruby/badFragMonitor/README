@@ -1,0 +1,1 @@
+This script is to scan and monitor the specific directory to check if there is bad fragment basing on 'inotify'.
