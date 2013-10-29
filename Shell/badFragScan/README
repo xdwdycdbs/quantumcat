@@ -1,0 +1,1 @@
+This simple script uses "find" and awk to scan the specific disk and print the 'bad' fragment. 
