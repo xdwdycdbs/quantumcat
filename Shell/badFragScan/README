@@ -1,1 +1,1 @@
-This simple script uses "find" and awk to scan the specific disk and print the 'bad' fragment. 
+This simple script uses "find" and awk to scan the specific disk and print the 'bad' fragment, then it begins to monitor this disk and print the new 'bad' fragment.

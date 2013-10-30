@@ -1,1 +1,0 @@
-find . -name "*.dat" -exec sha1sum {} \; | awk '{arr[$2] = $1} END{for(i in arr){l=split(i, a, "/"); if(substr(a[l], 0, 40)!=arr[i]) {print "Bad Fragment:", i}}}' 
