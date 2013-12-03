@@ -1,0 +1,34 @@
+1:put filename 100 50 1 1 100000
+2:put filename 100 50 1 1 /root/vbi
+3:get filename 100 50 0
+4:get filename 100 50 1
+5:get vbi-rehyd-5.2012-10-8.file0. 1 1 1
+6:get vbi-rehyd-5.2012-10-8.file0. 1 1 0
+7:get vbi-rehyd-20.2012-10-8.file0. 1 1 1
+8:get vbi-rehyd-20.2012-10-8.file0. 1 1 0
+9:get vbi-rehyd-50.2012-10-8.file0. 1 1 1
+10:get vbi-rehyd-50.2012-10-8.file0. 1 1 0
+11:put normal-20 10 1 0 0 20480
+12:put normal-100 10 1 0 0 102400
+13:put normal-1000 10 1 0 0 1024000
+14:put normal-10000 10 1 0 0 10240000
+15:get normal-20 10 1 0
+16:get normal-100 10 1 0
+17:get normal-1000 10 1 0
+18:get normal-10000 10 1 0
+19:put vbi-20k 10 1 1 0 20480 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.20K
+20:put vbi-100k 10 1 1 0 102400 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.100K
+21:put vbi-1M 10 1 1 0 1024000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.1M
+22:put vbi-10M 10 1 1 0 10240000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.10M
+23:put vbi-resume-100k 10 1 1 1 102400 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.100K
+24:put vbi-resume-10M 10 1 1 1 10240000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.10M
+25:put vbi-pipeline-20k 10 50 1 0 20480 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.20K
+26:put vbi-pipeline-100k 10 50 1 0 102400 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.100K
+27:put vbi-pipeline-1M 10 50 1 0 1024000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.1M
+28:put vbi-pipeline-10M 10 50 1 0 10240000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.10M
+29:put vbi-pipeline-resume-1M 10 50 1 1 1024000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.1M
+30:put vbi-pipeline-resume-10M 10 50 1 1 10240000 /home/ycai/lightweight-perf/perf_server/vbidata/vbi.10M
+31:get vbi-20k 10 1 1
+32:get vbi-100k 10 1 1
+33:get vbi-1M 10 1 1
+34:get vbi-10M 10 1 1
